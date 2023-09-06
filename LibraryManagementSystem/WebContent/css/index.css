@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+
+body
+{
+	background-image: url("wa.jpg");
+}
+
+
+.div1
+{
+	margin: auto;
+	margin-top: 150px;
+	height: 350px;
+	width: 600px;
+	background-color: white;
+	border-radius: 10px;
+	
+}
+
+h1
+{
+	color: #bf0000;
+	padding-top: 50px;
+	text-align: center;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+h2
+{
+	color: #9f0050;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+button
+{
+    height: 40px;
+    width: 170px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: rgb(31, 31, 68);
+    cursor: pointer;
+    margin-left: 86px;
+    margin-top: 50px;
+}
+
+button:hover
+{
+    background-color: rgb(171, 171, 253);
+}  

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+
+<link href="css/login.css" rel="stylesheet">
+</head>
+<body>	
+	
+		<div id="div1">
+		    <div class="container">
+		      <div class="image">
+		        <img src="css/lo.jpg">
+		      </div>
+		
+		      <form action="LoginController" class="form1" method="post">
+		      <div class="text">
+		
+		        <h1 class="h1">Login Form</h1>
+		        
+		        	<input type="text" name="email" class="input" placeholder="Email your Address" required="required"> <br><br>
+					
+		            <select name="type" class="gender" required="required">
+		            
+						<option name="type">Select user type</option>
+						<option name="type">Admin</option>
+						<option name="type">Librarian</option>
+						
+					</select>
+					<br><br>
+					<input type="password" name="password" class="input" placeholder="Password" required="required"> <br><br>
+					
+					
+					<button type="submit">Login</button> <br><br>
+					 
+					<p>Don't have account? <a href="Signup.html">Sign-up</a></p>
+		        
+		      </div>
+		   	  </form>
+		    </div>
+		</div>
+	
+
+</body>
+</html>

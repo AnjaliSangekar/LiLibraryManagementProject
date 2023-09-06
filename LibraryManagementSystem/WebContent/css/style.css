@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+
+table, tr, th, td
+{
+	 border: 2px solid black;
+	
+	 border-collapse: collapse;
+	 
+	 width: '100%';
+	 
+}
+th
+{
+	color: red;
+}
+
+tr
+{
+	color: #0000a0;
+}
+
+td, th
+{
+	padding: 15px;
+}
+
+tr:hover
+{
+	background: #dfafa8;
+	color: white;
+}
+
+#btn
+{
+	background: #ffa2a2;
+	padding: 6px;
+	width: 100px;
+	border-radius: 10px;
+	border-color: white;
+}
+
+#btn:hover
+{
+	background: #ddddff;
+	color: #008080;
+}
